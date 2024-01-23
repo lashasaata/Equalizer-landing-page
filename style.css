@@ -1,0 +1,408 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "IBM Plex Sans";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 202px;
+  align-items: center;
+}
+
+.maindiv {
+  background-image: url("assets/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-position-x: -270px;
+  background-position-y: -250px;
+  position: relative;
+  width: 1440px;
+}
+
+.maindiv h2 {
+  color: rgba(25, 24, 38, 1);
+  font-weight: 700;
+  font-size: 3.2rem;
+  margin: 62px 0px 0px 166px;
+}
+
+.heading {
+  color: rgba(25, 24, 38, 1);
+  font-size: 8.8rem;
+  font-weight: 700;
+  line-height: 88px;
+  width: 1015px;
+  height: 176px;
+  margin: 127px 0px 0px 165px;
+}
+
+.maintext {
+  color: #191826;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 34px;
+  width: 825px;
+  height: 102px;
+  margin: 40px 0px 0px 165px;
+}
+.topimg {
+  margin-left: 1128px;
+  margin-top: -140px;
+  position: absolute;
+}
+
+.backgrounddiv {
+  margin: 321px 0px 0px 165px;
+  width: 1110px;
+  height: 600px;
+  background-color: rgba(25, 24, 38, 1);
+  border-radius: 12px;
+  position: relative;
+}
+
+.backgrounddiv img {
+  margin: -40px 0px 0px 336px;
+  width: 312px;
+  height: 468px;
+}
+
+.mobile {
+  position: absolute;
+  width: 280px;
+  height: 606px;
+  margin-left: 299px;
+  margin-top: -794px;
+}
+
+.premiumdiv {
+  background-color: rgba(250, 116, 83, 1);
+  width: 446px;
+  height: 625px;
+  position: absolute;
+  margin-left: 734px;
+  margin-top: -510px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.premiumdiv h2 {
+  color: #fcfaf9;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  width: 333px;
+  height: 52px;
+  margin: 58px 0px 0px 54px;
+}
+
+.premiumP {
+  color: #fcfaf9;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  width: 333px;
+  height: 170px;
+  margin: 22px 0px 0px 54px;
+}
+.price {
+  width: 165px;
+  height: 52px;
+  margin: 39px 0px 0px 54px;
+}
+
+.price p {
+  color: #fcfaf9;
+  font-size: 6.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  margin: 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price p span {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  text-align: center;
+}
+
+.iosdownload {
+  background-color: #191826;
+  width: 333px;
+  height: 61px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 46px 0px 0px 54px;
+  flex-shrink: 0;
+}
+.iosdownload:hover {
+  background-color: #66e2dc;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.iosdownload div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 142px;
+}
+.iosdownload span {
+  color: #fcfaf9;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+}
+.androiddownload {
+  width: 333px;
+  height: 61px;
+  background-color: #fcfaf9;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin: 16px 0px 0px 54px;
+}
+.androiddownload:hover {
+  background-color: #ffb964;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.androiddownload div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 179px;
+}
+.androiddownload div span {
+  color: #191826;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+}
+.bottomdiv {
+  width: 1110px;
+  height: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottomdiv h2 {
+  text-align: start;
+  color: rgba(25, 24, 38, 1);
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.bottomdiv p {
+  width: 366px;
+  color: #191826;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.bottomdiv p span {
+  font-weight: 700;
+}
+.bottomdiv div {
+  width: 100px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fbIcon:hover {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bottomdiv div img {
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  body {
+    gap: 87px;
+  }
+  .maindiv {
+    background-image: none;
+    width: 768px;
+    height: 1470px;
+    overflow: hidden;
+    background-image: url("assets/bg-main-tablet.png");
+    background-position-y: -280px;
+    background-position-x: -400px;
+  }
+  .maindiv h2 {
+    margin: 39px 0px 0px 39px;
+  }
+  .topimg {
+    width: 267px;
+    height: 400px;
+    margin-left: 537px;
+  }
+  .heading {
+    width: 520px;
+    height: 192px;
+    margin-left: 39px;
+    font-size: 6.4rem;
+    line-height: 64px;
+    letter-spacing: -0.727px;
+  }
+  .maintext {
+    width: 514px;
+    font-size: 1.8rem;
+    line-height: 28px;
+    margin-left: 39px;
+    margin-top: 32px;
+  }
+  .backgrounddiv {
+    width: 696px;
+    margin: 249px 0px 0px 33px;
+  }
+  .backgrounddiv img {
+    width: 280px;
+    height: 420px;
+    margin-left: 230px;
+  }
+  .mobile {
+    width: 270px;
+    height: 556px;
+    margin: -738px 0px 0px 97px;
+  }
+  .premiumdiv {
+    width: 399px;
+    height: 546px;
+    margin: -450px 0px 0px 272px;
+  }
+  .premiumdiv h2 {
+    margin: 48px 0px 0px 48px;
+    font-size: 3.2rem;
+    font-weight: 40px;
+  }
+  .premiumP {
+    width: 302px;
+    height: 140px;
+    font-size: 1.8rem;
+    line-height: 28px;
+    margin: 12px 0px 0px 48px;
+  }
+  .price {
+    margin-top: 36px;
+  }
+  .iosdownload {
+    width: 296px;
+    margin-top: 32px;
+  }
+  .androiddownload {
+    width: 296px;
+  }
+  .bottomdiv {
+    width: 696px;
+    height: 143px;
+    position: relative;
+  }
+  .bottomdiv p {
+    position: absolute;
+    margin-top: 64px;
+  }
+  .bottomdiv div {
+    align-items: none;
+    margin-top: 94px;
+  }
+}
+@media (max-width: 375px) {
+  .maindiv {
+    background-image: none;
+    width: 375px;
+    height: 1530px;
+    background-image: url(assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: -280px;
+    background-position-x: 0px;
+  }
+  .maindiv h2 {
+    margin: 40px 0px 0px 24px;
+  }
+  .heading {
+    width: 327px;
+    height: 144px;
+    font-size: 4rem;
+    line-height: 48px;
+    letter-spacing: -0.455px;
+    margin: 64px 0px 0px 24px;
+  }
+  .maintext {
+    width: 327px;
+    height: 156px;
+    font-size: 1.6rem;
+    line-height: 26px;
+    margin: 20px 0px 0px 24px;
+  }
+  .topimg {
+    display: none;
+  }
+  .heading {
+    margin: 40px 0px 0px 24px;
+  }
+  .backgrounddiv {
+    width: 375px;
+    margin: 166px 0px 0px;
+  }
+  .backgrounddiv img {
+    margin-left: 48px;
+    margin-top: 0px;
+  }
+  .mobile {
+    width: 209px;
+    height: 430px;
+    margin: -698px 0px 0px 81px;
+  }
+  .premiumdiv {
+    width: 375px;
+    margin: -220px 0px 0px;
+  }
+  .premiumdiv h2 {
+    margin-left: 36px;
+  }
+  .premiumP {
+    margin-left: 36px;
+  }
+  .price {
+    margin-left: 42px;
+  }
+  .iosdownload {
+    margin-left: 42px;
+  }
+  .androiddownload {
+    margin-left: 42px;
+  }
+  .bottomdiv {
+    width: 327px;
+    height: 169px;
+    margin-left: 24px;
+    flex-direction: column;
+  }
+  .bottomdiv p {
+    height: 105px;
+    width: 327px;
+  }
+  .bottomdiv div {
+    position: absolute;
+    margin-top: 233px;
+  }
+}
