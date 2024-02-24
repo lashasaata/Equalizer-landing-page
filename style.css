@@ -325,10 +325,14 @@ body {
     margin-top: 94px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
+  body {
+    gap: 390px;
+  }
   .maindiv {
+    overflow: visible;
     background-image: none;
-    width: 375px;
+    width: 100%;
     height: 1530px;
     background-image: url(assets/bg-main-mobile.png);
     background-repeat: no-repeat;
@@ -361,7 +365,7 @@ body {
   }
   .backgrounddiv {
     width: 375px;
-    margin: 166px 0px 0px;
+    margin: 166px 0px 0px 25px;
   }
   .backgrounddiv img {
     margin-left: 48px;
@@ -370,11 +374,11 @@ body {
   .mobile {
     width: 209px;
     height: 430px;
-    margin: -698px 0px 0px 81px;
+    margin: -698px 0px 0px 106px;
   }
   .premiumdiv {
     width: 375px;
-    margin: -220px 0px 0px;
+    margin: -220px 0px 0px 25px;
   }
   .premiumdiv h2 {
     margin-left: 36px;
@@ -404,5 +408,16 @@ body {
   .bottomdiv div {
     position: absolute;
     margin-top: 233px;
+  }
+}
+@media (max-width: 375px) {
+  .backgrounddiv {
+    margin-left: 0px;
+  }
+  .mobile {
+    margin-left: 81px;
+  }
+  .premiumdiv {
+    margin: -220px 0px 0px;
   }
 }
